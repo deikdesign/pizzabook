@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Pizza Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+          h1 {
+            font-size: 45px;
+            text-align:center;
+            background-color: rgb(254,26,25);
+            color: white;
+            text-decoration: underline;
+          }
+          h2 {
+           font-size:35px;
+           color: red;
+          font-style: italic;
+          background-color: white;
+          border-style: dotted;
+          border-color: rgb(255,208,119);
+          border-width: 2px;
+          padding: 20px;
+          margin: 1px;
+          position: fixed;
+          }
+         h1#contents  {
+            font-size:35px;
+           font-style: normal;
+           text-decoration: underline;
+           color: black;
+           background-color: white;
+           text-align: left;
+           border-style: dotted;
+           border-color: white;
+
+
+          }
+          h3 {
+            font-size:35px
+            color: rgb(254,26,25);
+            font-style: oblique;
+          }
+          p {
+            font-size: 14px;
+            margin-left: 5px;
+          }
+         .ingredients { 
+             color: rgb(10, 122, 45);
+             
+         }
+         .quantity {
+            color: rgb(120, 53, 11);
+         }
+         body {
+             background-color: rgb(254,254,245);
+         }
+   .img { 
+  width: 50%;
+  opacity: 0.9;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+   }
+   .img-pizza {
+  opacity: 100;
+  display: block;
+  margin-top: 20px;
+  margin-left: 20px;
+  float: right;
+
+   }
+   a:link {
+                color: red;
+            }
+            a:visited {
+                color: orange;
+            }
+            a:hover { 
+                background-color: rgb(255, 214, 255);
+            }  
+            a:active {
+                background-color: rgb(255, 214, 255);
+            } 
+            a:focus {
+                background-color: rgb(255, 214, 255);
+            } 
+            .ol,li {
+              font-size:120%;
+            }
+            #table {
+  font-family: "Trebuchet MS", Arial,
+  border-collapse: collapse;
+  width: 275px;
+  margin-left: 20px;
+  float: none;
+  position: none;
+}
+
+#table td, #table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#table tr:nth-child(even){background-color: #f2f2f2;}
+
+#table tr:hover {background-color: #ddd;}
+
+#table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+div {
+background: rgb(255, 255, 219);
+                float: left;
+                width: 300px;
+                margin-left: 1px;
+                padding: 1px;
+                clear: both;
+                
+}
+#pizza  {
+  width: 300px;
+  height:200px;
+  border: 1px dotted black
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  float: left;
+  position:absolute;
+}
+-----#recipe-sidebar 
+                background: rgb(255, 255, 219);
+                float: right;
+                width:50%;
+                margin-left: 1px;
+                padding: 1px;
+                clear: both; -------
+ 
+            
+.ol  {
+  display: block;
+  list-style-type: decimal;
+  margin-top: 1em;
+  margin-bottom: 10em;
+  margin-left: 5000;
+  margin-right: 0;
+  padding-left: 1px;
+  
+}
+        </style>
+    </head>
+    <body>
+       
+        <h1 text-align:"center">Pizza Recipe Book</h1>
+
+        <img class="img" src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/pizza-logo-design-template-4d44bc70157275ba796665eb6e114187_screen.jpg?ts=1574024942" alt="Pizza" width="200">
+
+        <h1 id="contents">Contents:</h1>
+        
+        <ol class="ol">
+            <li><a href="#margherita">Margherita</a></li>
+            <li><a href="#chicken-soup">Chicken soup</a></li>
+            <li><a href="#bacon-soup">Bacon soup</a></li>
+            
+        </ol>
+      
+        
+
+
+        
+        <h2 id="margherita">Margherita</h2>
+        <img class="img-pizza"   src="https://cdn.loveandlemons.com/wp-content/uploads/2019/09/margherita-pizza.jpg" alt="Margherita" width="275" height="300">
+         <div>
+        <ul id="llaa">
+            <li>Time: 5</li>
+            <li>Serves: 10</li>
+        </ul>
+        </div>
+        <div id="pizza">
+        <p><strong>Step 1:</strong> Prepare pizza dough through step 5, including preheating the oven to 475°F (246°C). Cover the shaped dough lightly with plastic wrap and allow it to rest as the oven preheats.
+</p>
+<p><strong>Step 2:</strong> Mix the olive oil and chopped garlic together in a small dish. Brush the top of the dough lightly with olive oil. Using your fingers, push dents into the surface of the dough to prevent bubbling. Top with pizza sauce, then the mozzarella cheese slices, then the tomato slices.
+</p>
+<p><strong>Step 3:</strong>Bake for 14-16 minutes or until the crust is lightly browned and the cheese is bubbling. For the last minute, I move the oven rack to the top rack to really brown the edges. That’s optional. </p>
+
+<p><strong>Step 4:</strong>Remove from the oven and top with fresh basil and pepper. Slice pizza and serve immediately. </p>
+
+<p><strong>Step 5:</strong>Cover leftover pizza tightly and store in the refrigerator. Reheat as you prefer. Baked pizza slices can be frozen up to 3 months. See pizza crust recipe for instructions on freezing the pizza dough.</p>
+        </div>
+        <table id="table">
+            <thead>
+                <tr>
+                    <th class="ingredients">Ingredients</th>
+                    <th class="quantity">Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td> Homemade pizza dough</td>
+                <td> 1/2</td>
+            </tr>
+            <tr><td>Olive Oil</td>
+                <td>1 spoon</td>
+            </tr>
+            <tr><td> Garlic</td>
+                <td>2 cloves</td>
+            </tr>
+            <tr>
+              <td> Tomato sauce</td>
+                <td>1/4 cup</td>
+            </tr>
+            <tr>
+              <td> Mozzarella</td>
+                <td>8 ounces</td>
+            </tr>
+            <tr>
+              <td> Tomatoes</td>
+                <td>2 plum </td>
+            </tr>
+            <tr>
+              <td> Fresh basil</td>
+                <td>2-3 </td>
+            </tr>
+            <tr>
+              <td> Black pepper</td>
+                <td> to taste </td>
+            </tr>
+            </tbody>
+        </table>
+        
+<h2 id="chicken-soup">Recipe #2</h2>
+        
+        <ul>
+            <li>Time: 5</li>
+            <li>Serves: 10</li>
+        </ul>
+        
+        <table id="table">
+               <thead>
+                <tr>
+                    <th class="ingredients">Ingredients</th>
+                    <th class="quantity">Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td> Tomatoes</td>
+                <td> 14 Ounce</td>
+            </tr>
+            <tr><td>Olive Oil</td>
+                <td>1 spoon</td>
+            </tr>
+            <tr><td>Tomato sauce</td>
+                <td>16 Ounce</td>
+            </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong>The soup should be brought slowly to a boil and then simmered in a covered pot on a very low flame for one to three hours, adding water if necessary.
+</p>
+<p><strong>Step 2:</strong>  Saffron or turmeric are sometimes added as a yellow colorant.
+</p>
+<p><strong>Step 3:</strong>Then the chicken can be shredded by hand and stored in the refrigerator until ready for use in the soup.</p>
+
+
+<h2 id="bacon-soup">Recipe #3</h2>
+        
+        <ul>
+            <li>Time: 5</li>
+            <li>Serves: 10</li>
+        </ul>
+        
+        <table id="table">
+            <thead>
+                <tr>
+                    <th class="ingredients">Ingredients</th>
+                    <th class="quantity">Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td> Chicken</td>
+                <td> 1/2 kilo</td>
+            </tr>
+            <tr><td>Tomato </td>
+                <td>1/2 kilo</td>
+            </tr>
+            <tr><td>Garlic sauce</td>
+                <td>16 Ounce</td>
+            </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong>The soup should be brought slowly to a boil and then simmered in a covered pot on a very low flame for one to three hours, adding water if necessary.
+</p>
+<p><strong>Step 2:</strong>  Saffron or turmeric are sometimes added as a yellow colorant.
+</p>
+<p><strong>Step 3:</strong>Then the chicken can be shredded by hand and stored in the refrigerator until ready for use in the soup.</p>
+        
+    <p><em>Source: <a href="?">Some recipes websites</a></em></p>
+    
+    </body>
+</html>
